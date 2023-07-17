@@ -1,0 +1,344 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Cardo', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Cardo', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+/* header section css code start here */
+.header{
+    width: 100%;
+    background: url("../images/head.png")center top no-repeat;
+    background-size: cover;
+}
+.header .navbar .navbar-nav{
+
+}
+.header .navbar .navbar-nav .nav-item{
+
+}
+.header .navbar .navbar-nav .nav-item .nav-link{
+   
+    font-size: 20px;
+    line-height: 1.7em;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+    margin-left: 20px;
+    transition: 1s;
+}
+.header .navbar .navbar-nav .nav-link:hover{
+    color: black;
+}
+.header .navbar .navbar-nav .nav-link:focus{
+    color: black;
+}
+/* tagline section css code start here */
+.header .tagline{
+    width: 100%;
+    padding: 80px 0px;
+}
+.header .tagline h1{
+    font-size: 52px;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.header .tagline p{
+    font-size: 26px;
+    line-height: 1.2em;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    
+
+}
+.header .tagline .button{
+    width: 100%;
+    padding: 80px 0px;
+    text-align: center;
+   
+    
+}
+
+.header .tagline .btn-danger{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 0px;
+    color: #fff;
+    border: 2px solid #e84545;
+    transition: 1s;
+}
+.header .tagline .btn-danger:hover{
+    color: #000;
+}
+.header .tagline .btn-danger:focus{
+    background: transparent;
+    color: #fff;
+}
+/* tagline section css code end here */
+/* header section css code end here */
+
+/* feature section start here */
+
+.feature{
+    width: 100%;
+    padding: 80px 0px;
+}
+.feature .feature-box1{
+    padding: 15px 15px;
+    text-align: center;
+}
+.feature .feature-box1 .icon{
+    margin-bottom: 20px;
+}
+
+.feature .feature-box1 .icon img{
+    width: 55px;
+    color: #e84545;
+}
+.feature .feature-box1 h1{
+    font-size: 27px;
+    line-height: 1.7em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.feature .feature-box1 p{
+    font-size: 12px;
+    line-height: 1.7em;
+    font-weight: 400;
+    text-transform: initial;
+    margin-bottom: 10px;
+}
+
+
+/* feature section end here */
+/* feature-img section start here */
+.feature-img{
+    width: 100%;
+    padding: 80px 0px;
+}
+.feature-img .card{
+    width: 100%;
+    
+}
+.feature-img .text{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.feature-img .card img{
+   
+}
+.feature-img .card-img-overlay{
+    margin-top: 82px;
+}
+.feature-img .card-img-overlay .card-title{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 0.6em;
+    text-transform: uppercase;
+}
+.feature-img .card-img-overlay .card-text{
+    font-size: 26px;
+    line-height: 1.0em;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+/* feature-img section end here */
+/* review section css code start here */
+.review{
+    width: 100%;
+    padding: 80px 0px;
+
+}
+.review .card{
+    width: 100%;
+    padding: 10px 10px 10px;
+    border: 0px;
+}
+.review .card img{
+   border-radius: 10px;
+}
+.review .card-body{
+  
+ }
+ .review .card-body h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 0.7em;
+    text-align: left;
+    text-transform: capitalize;
+   
+ }
+ .review .card-body h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.7em;
+    color: #e84545;
+    text-transform: capitalize;
+ }
+ .review .card-body p{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.2em;
+    text-transform: math-auto;
+    text-align: left;
+ }
+
+ .review .social {
+   width: 100%;
+   padding: 20px 0px;
+ }
+ /*.review .social ul{
+    
+
+  }
+  */
+  .review .social ul li{
+    list-style: none;
+    display: inline-block;
+  }
+  .review .social ul li a{
+    font-size: 48px;
+    font-weight: 200;
+    color: #A9A9A9;
+    border: 2px solid #C0C0C0;
+    border-radius: 31px;
+    margin: 0px 5px 0px 1px;
+    padding: 0px 13px;
+}
+/* review section css code end here */
+
+/* tea-img section start here */
+.tea{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+/* tea-img section end here */
+
+/* ready section css code start here */
+.ready{
+    width: 100%;
+    padding: 80px 0px;
+}
+.ready .ready-text{
+    text-align: center;
+}
+.ready .ready-text h1{
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 1.2em;
+    text-transform: capitalize;
+ }
+ .ready .ready-text p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.7em;
+    text-transform: capitalize;
+ }
+ .ready .button{
+    width: 100%;
+    margin-top: 45px;
+    text-align: center;
+ }
+ .ready .btn-danger{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px 15px 10px 15px;
+    text-transform: uppercase
+ }
+
+ 
+/* ready section css code start here */
+/* contact info section css code start here */
+.contact{
+    width: 100%;
+    padding: 80px 0px;
+    background: #3a3e64;
+}
+.contact .contact-text{
+    text-align: center;
+    color: #fff;
+}
+.contact .contact-text h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2em;
+    text-transform: uppercase;
+}
+.contact .contact-text p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.7em;
+    text-transform: uppercase;
+    color: #D3D3D3;
+    text-align: center;
+}
+.contact .contact-text .social{
+    width: 100%;
+    padding: 10px 0px;
+    margin: 0px 0px 0px -23px;
+    
+
+}       
+    
+.contact .contact-text .social ul li{
+    list-style: none;
+    display: inline-block;
+        
+}      
+.contact .contact-text .social ul li a{
+    font-size: 30px;
+    margin-left: 31px;
+    text-align: center;
+    margin-right: 17px;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 1px 13px 5px 13px;
+    border-radius: 17px;;
+
+}       
+/* contact info section css code end here */
+
+/* footer serction css code start here */
+.footer{
+    width: 100%;
+    padding: 10px 0px;
+    background: #313454;
+
+}
+
+.footer .footer-copyright{
+   color: #fff;
+   text-align: center;
+
+}
+
+ 
+
+/* footer section cs code end here */
